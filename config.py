@@ -7,13 +7,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "18955362"))
 API_HASH = getenv("API_HASH", "3a63a8decd12cd668283d43dbce20a96")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5662659781:AAEnPmXa6KsvFx8K46xNVxBuPLeHARnJkZE")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.x6kstu2.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001246079685"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dora")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5898166383").split()))
